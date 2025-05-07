@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .mynav {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
     background-color: #333333;
+    border-bottom: 10px solid;
+    border-color: rgb(187, 24, 24);
 }
 
 header {
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,8 +19,17 @@ header {
     color: white;
 }
 
+
+body {
+    background-color: #1b1c1d;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .my-logo {
     cursor: pointer;
+    color: rgb(187, 24, 24);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
 }
 
 .horizontal-menu-nav-list li a {
@@ -44,11 +56,85 @@ header {
 }
 
 .horizontal-menu-nav-list li a:hover {
-    background-color: #03132b;
-  }
-*/
+    background-color:rgb(174, 184, 180);
+}
+
 
 ul.horizontal-menu-list li a {
     display: inline-block;
     padding: 10px;
   } 
+
+
+#home {
+    background-image: url('assets/images/gradient-abstract-wireframe-background/5630939.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+    padding: 50px;
+}
+#home h3{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#home p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+
+.profile-pic {
+    width: 400px;
+    height: 400px;
+}
+
+#about p {
+    color: white;
+    font-size: 20px;
+    /* text-align: center;
+    margin-top: 20px; */
+    margin: 10%;
+}
+
+#about h2 {
+    color: white;
+    margin: 10%;
+    font-size: 50px;
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.the-about-class {
+    align-items: center;
+}
+
+#languages h2, #experience h2, #projects h2, #skills h2,#contact h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#languages p, #experience p, #projects p, #skills p,#contact p {
+    color: white;
+}
+
+#languages ul li, #skills ul li{
+    color: white;
+}
