@@ -177,6 +177,8 @@ ul.horizontal-menu-list li a {
 
 #my-projects {
     font-size: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .project-image {
@@ -194,13 +196,14 @@ ul.horizontal-menu-list li a {
 #project-paragraph {
     width: 700px;
 }
+
 #projects {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #projects ul {
@@ -220,4 +223,45 @@ ul.horizontal-menu-list li a {
     margin: 5px 0;
     color: white;
     padding: 20px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    padding: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#contact {
+    background-color: rgb(2, 31, 44);
+    padding: 20px;
+}
+
+#contact p a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+#contact p a:hover {
+    background-color:rgb(86, 143, 120);
+}
+
+#contact h2 {
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: rgb(141, 23, 23);;
 }
