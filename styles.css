@@ -76,11 +76,21 @@ ul.horizontal-menu-list li a {
 }
 
 #intro {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#intro p {
     /* text-align: center; */
     font-family:'Courier New', Courier, monospace;
     align-items: center;
     font-size: 20px;
     color: white;
+}
+
+#intro a {
+    margin-left: 50%;
 }
 
 #home-content {
@@ -380,4 +390,46 @@ ul.horizontal-menu-list li a {
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.fa-download {
+    font-size: 10px;
+    background: #f7f7f7;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 5px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    /* border-radius: 10px 10px; */
+    transition: 0.3s;
+}
+
+#please-contact {
+    background-color: #f7f7f7;
+    margin: 5%;
+    margin-bottom: 20%;
+}
+#please-contact p{
+    display: flex;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(243, 0, 0);
+    margin: 1% 20% 0% 20%;
+    /* padding: 20px; */
+}
+
+#hi-there-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+
+#hi-there-image {
+    width: 400px;
+    height: 400px;
+    /* margin: 0% 20% 0% 40%; */
 }
