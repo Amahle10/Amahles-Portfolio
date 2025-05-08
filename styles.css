@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .mynav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,6 +20,7 @@ header {
     padding: 5px 10%;
     background-color: #333333;
     color: white;
+    margin-left: 20%;
 }
 
 
@@ -432,4 +436,15 @@ ul.horizontal-menu-list li a {
     width: 400px;
     height: 400px;
     /* margin: 0% 20% 0% 40%; */
+}
+
+#footer-text {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 5%;
+}
+#footer-text a {
+    color: white;
+    text-decoration: none;
 }
