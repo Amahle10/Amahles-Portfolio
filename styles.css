@@ -298,8 +298,8 @@ ul.horizontal-menu-list li a {
 
 #achievements ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 10%;
+    margin: 5%;
     color: white;
 }
 
