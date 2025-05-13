@@ -10,8 +10,18 @@
 <body>
     <div class="mynav">
     <header class="header">
-        <!-- <img src="logo.png" alt="Logo" class="logo"> -->
-            <!-- <h2 class="my-logo">My Web Page</h2> -->
+        <nav id=flex-navbar>
+
+
+            <button id="nav-button">
+                <div class="menu-icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+            </button>
+
+            <div id=menu>
             <ul class="horizontal-menu-nav-list">
                 <li><a href="#home" aria-label="Home">Home</a></li>
                 <li><a href="#about" aria-label="About Me">About</a></li>
@@ -22,7 +32,12 @@
                 <li><a href="#languages" aria-label="Languages">Languages</a></li>
                 <li><a href="#contact" aria-label="Contact">Contact</a></li>
             </ul>
+        </div>
+
+        </nav>
     </header>
+
+
     </div>
     <main>
 
@@ -36,10 +51,10 @@
             <div id="home-content">
                 <P id="welcome">Welcome to My Web Page</P>
                 <P id="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus facere consequatur quas ab molestias aut temporibus molestiae praesentium,
+                    <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus facere consequatur quas ab molestias aut temporibus molestiae praesentium,
                      nam sequi? Minus dolor porro, distinctio magnam voluptate quod doloremque nisi repellendus.
                     <br>
-                    <br>
+                    <br> -->
                      My stack: HTML, CSS, JavaScript, React, Node.js, MongoDB, Python, SQL, NoSQL, Git, GitHub, RESTful APIs, Linux, Docker, CI/CD pipelines, Agile methodologies, and more.
                 </P>
             </div>
@@ -164,7 +179,7 @@
             <h2>Skills Section</h2>
             <p>This section contains skills information.</p>
             <ul>
-                <li>Skill 1</li>
+                <li>Pyth</li>
                 <li>Skill 2</li>
                 <li>Skill 3</li>
                 <li>Skill 4</li>
@@ -210,5 +225,13 @@
     <footer>
         <p id="footer-text">&copy; 2025 Amahle Bilikwa. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("nav-button").addEventListener("click", function() {
+            var menu = document.getElementById("menu");
+            menu.style.display = menu.style.display === "none" ? "block" : "none";
+        });
+    </script>
+    
 </body>
 </html>
