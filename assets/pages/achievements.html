@@ -1,23 +1,190 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="achievements">
-        <h2>Achievements</h2>
-        <ul>
-            <li>Completed a full-stack web development bootcamp.</li>
-            <li>Contributed to open-source projects on GitHub.</li>
-            <li>Participated in hackathons and won 1st place in a local coding competition.</li>
-            <li>Published a technical blog post on web development best practices.</li>
-        </ul>
-    </div>
 
-    <footer class="footer">
-        <p>&copy; 2025 Amahle Bilikwa. All rights reserved.</p>
-    </footer>
+    <meta name="description" content="Amahle Bilikwa — Professional achievements, certifications, technical development and contributions.">
+    <meta name="author" content="Amahle Bilikwa">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Achievements | Amahle Bilikwa</title>
+
+    <link rel="stylesheet" href="../../styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="achievements-page">
+
+<header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+
+        <a href="../../index.html#home" class="logo">AB<span>.</span></a>
+
+        <ul class="nav-links">
+            <li><a href="../../index.html#about">About</a></li>
+            <li><a href="../../index.html#capabilities">Capabilities</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="../../index.html#skills">Technologies</a></li>
+            <li><a href="achievements.html" class="active">Achievements</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <a href="mailto:kamvaoct1@gmail.com" class="nav-contact">
+            Let's connect
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+    </nav>
+</header>
+
+<main>
+
+    <section class="container">
+        <div class="achievements-hero">
+
+            <div class="section-label">
+                Professional Development
+            </div>
+
+            <h1>
+                Learning.<br>
+                Building.<br>
+                <span>Progressing.</span>
+            </h1>
+
+            <p>
+                A collection of qualifications, professional experience
+                and technical milestones that reflect my development
+                across software engineering, systems administration
+                and emerging technologies.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="container achievements-section">
+
+        <div class="achievements-heading">
+            <h2>Milestones & Achievements</h2>
+            <span>01 — 04</span>
+        </div>
+
+        <div class="achievement-list">
+
+            <article class="achievement">
+                <div class="achievement-number">01 / EDUCATION</div>
+
+                <h3>Higher Certificate in Systems Development</h3>
+
+                <p>
+                    Completed formal software development training
+                    through WeThinkCode_, developing foundations
+                    in programming, problem-solving and software
+                    engineering.
+                </p>
+
+                <span class="achievement-tag">WeThinkCode_</span>
+            </article>
+
+            <article class="achievement">
+                <div class="achievement-number">02 / CERTIFICATION</div>
+
+                <h3>AI Development & Generative AI</h3>
+
+                <p>
+                    Completed AI development skills training,
+                    exploring generative AI tools and their
+                    applications in software development and
+                    productivity.
+                </p>
+
+                <span class="achievement-tag">Artificial Intelligence</span>
+            </article>
+
+            <article class="achievement">
+                <div class="achievement-number">03 / CERTIFICATION</div>
+
+                <h3>SUSE Certified Administrator</h3>
+
+                <p>
+                    Achieved certification demonstrating foundational
+                    Linux system administration knowledge and
+                    practical understanding of enterprise Linux
+                    environments.
+                </p>
+
+                <span class="achievement-tag">Linux Administration</span>
+            </article>
+
+            <article class="achievement">
+                <div class="achievement-number">04 / PROFESSIONAL EXPERIENCE</div>
+
+                <h3>Enterprise Systems Administration</h3>
+
+                <p>
+                    Gained professional experience in a financial
+                    services environment, working with Linux
+                    infrastructure, CI/CD pipelines, application
+                    deployments, automation, monitoring and
+                    enterprise systems.
+                </p>
+
+                <span class="achievement-tag">DevOps & Infrastructure</span>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="container">
+        <div class="achievements-closing">
+
+            <h2>Progress is an ongoing process.</h2>
+
+            <p>
+                Every project, technical challenge and learning
+                experience contributes to a broader understanding
+                of how technology is designed, developed and maintained.
+            </p>
+
+            <a href="../projects.html">
+                Explore my projects
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+
+        <a href="../../index.html#home" class="logo">AB<span>.</span></a>
+
+        <p>
+            © <span id="year"></span> Amahle Bilikwa. All rights reserved.
+        </p>
+
+        <a href="../../index.html#home" class="back-to-top">
+            Back to home
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+    </div>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
