@@ -1,31 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="Amahle Bilikwa — Software Developer and Systems Administrator with experience in Linux, DevOps, cloud technologies and application development.">
-
     <meta name="author" content="Amahle Bilikwa">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#0a8f72">
 
     <title>Amahle Bilikwa | Software Developer</title>
 
-    <link rel="stylesheet" href="styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+<div class="progress" aria-hidden="true"></div>
+
 <header class="header">
     <nav class="navbar container" aria-label="Main navigation">
 
-        <a href="#home" class="logo">AB<span>.</span></a>
+        <a href="#home" class="logo" aria-label="Home">AB<span>.</span></a>
 
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -46,24 +45,19 @@
 <main>
 
     <!-- HERO -->
-
     <section id="home" class="hero">
         <div class="container hero-container">
 
             <div class="hero-content">
 
-<div class="hero-intro">
-    <img
-        src="./assets/images/profile-picture.jpg"
-        alt="Amahle Bilikwa"
-        class="hero-profile-image"
-    >
+                <div class="hero-intro">
+                    <img src="./assets/images/profile-picture.jpg" alt="Amahle Bilikwa" class="hero-profile-image">
 
-    <span class="eyebrow">
-        <span class="status-dot"></span>
-        SOFTWARE DEVELOPMENT & TECHNOLOGY
-    </span>
-</div>
+                    <span class="eyebrow">
+                        <span class="status-dot"></span>
+                        SOFTWARE DEVELOPMENT & TECHNOLOGY
+                    </span>
+                </div>
 
                 <h1>
                     Hi, I'm <span>Amahle Bilikwa.</span>
@@ -74,40 +68,27 @@
                 <p class="hero-description">
                     Software developer and systems administrator with experience
                     in Linux infrastructure, DevOps practices and application development.
-
                     I enjoy understanding how technology works, solving practical
                     problems and building systems that make a difference.
                 </p>
 
                 <div class="hero-actions">
                     <a href="#projects" class="btn btn-primary">
-                        Explore my work
-                        <i class="fa-solid fa-arrow-right"></i>
+                        Explore my work <i class="fa-solid fa-arrow-right"></i>
                     </a>
-
                     <a href="./assets/pages/resumePage.html" class="btn btn-secondary">
-                        <i class="fa-solid fa-download"></i>
-                        View my CV
+                        <i class="fa-solid fa-file-lines"></i> View my CV
                     </a>
                 </div>
 
                 <div class="hero-socials">
-                    <a href="https://github.com/Amahle10/"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       aria-label="GitHub">
+                    <a href="https://github.com/Amahle10/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <i class="fa-brands fa-github"></i>
                     </a>
-
-                    <a href="https://www.linkedin.com/in/amahle-bilikwa-a3a137240/"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/amahle-bilikwa-a3a137240/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-
-                    <a href="mailto:kamvaoct1@gmail.com"
-                       aria-label="Email">
+                    <a href="mailto:kamvaoct1@gmail.com" aria-label="Email">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
                 </div>
@@ -118,9 +99,7 @@
 
                 <div class="visual-card">
                     <div class="visual-header">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <span></span><span></span><span></span>
                         <p>developer.profile</p>
                     </div>
 
@@ -140,13 +119,8 @@
                     </div>
                 </div>
 
-                <div class="visual-tag tag-one">
-                    <i class="fa-brands fa-linux"></i> Linux
-                </div>
-
-                <div class="visual-tag tag-two">
-                    <i class="fa-brands fa-docker"></i> DevOps
-                </div>
+                <div class="visual-tag tag-one"><i class="fa-brands fa-linux"></i> Linux</div>
+                <div class="visual-tag tag-two"><i class="fa-brands fa-docker"></i> DevOps</div>
 
             </div>
 
@@ -154,7 +128,6 @@
     </section>
 
     <!-- ABOUT -->
-
     <section id="about" class="section">
         <div class="container">
 
@@ -166,29 +139,23 @@
             <div class="about-grid">
 
                 <div class="about-main">
-                    <h3>
-                        Curious about technology.
-                        Focused on building practical solutions.
-                    </h3>
+                    <h3>Curious about technology. Focused on building practical solutions.</h3>
 
                     <p>
                         I'm Amahle Bilikwa, a South African technology professional
                         with a background in systems development and IT infrastructure.
                     </p>
-
                     <p>
                         I previously worked at First National Bank, progressing from
                         a DevOps Graduate Programme into a System Administrator role.
                         My experience involved Linux environments, application deployments,
                         infrastructure monitoring, automation and CI/CD processes.
                     </p>
-
                     <p>
                         Alongside my infrastructure experience, I develop software
                         applications and explore technologies across backend development,
                         frontend engineering, cloud computing and artificial intelligence.
                     </p>
-
                     <p>
                         I believe in learning by building, understanding the systems
                         behind the software and continuously improving my technical skills.
@@ -196,36 +163,26 @@
                 </div>
 
                 <div class="about-details">
-
                     <div class="detail-item">
                         <span>Location</span>
                         <strong>Johannesburg, South Africa</strong>
                     </div>
-
                     <div class="detail-item">
                         <span>Professional background</span>
                         <strong>Software Development & Systems Administration</strong>
                     </div>
-
                     <div class="detail-item">
                         <span>Education</span>
                         <strong>Higher Certificate in Systems Development</strong>
                     </div>
-
                     <div class="detail-item">
                         <span>Current focus</span>
                         <strong>Software Engineering, Cloud & AI</strong>
                     </div>
-
                     <div class="detail-item">
                         <span>GitHub</span>
-                        <a href="https://github.com/Amahle10/"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            github.com/Amahle10
-                        </a>
+                        <a href="https://github.com/Amahle10/" target="_blank" rel="noopener noreferrer">github.com/Amahle10</a>
                     </div>
-
                 </div>
 
             </div>
@@ -233,7 +190,6 @@
     </section>
 
     <!-- EXPERIENCE -->
-
     <section id="experience" class="section section-muted">
         <div class="container">
 
@@ -246,8 +202,7 @@
             <div class="timeline">
 
                 <article class="timeline-item">
-
-                    <div class="timeline-date">October 2023 – December 2024</div>
+                    <div class="timeline-date">Oct 2023 – Dec 2024</div>
 
                     <div class="timeline-content">
                         <h3>System Administrator</h3>
@@ -271,20 +226,14 @@
                         </ul>
 
                         <div class="experience-tags">
-                            <span>Linux</span>
-                            <span>Docker</span>
-                            <span>Kubernetes</span>
-                            <span>AWS</span>
-                            <span>Bamboo</span>
-                            <span>Ansible</span>
+                            <span>Linux</span><span>Docker</span><span>Kubernetes</span>
+                            <span>AWS</span><span>Bamboo</span><span>Ansible</span>
                         </div>
                     </div>
-
                 </article>
 
                 <article class="timeline-item">
-
-                    <div class="timeline-date">February 2023 – September 2023</div>
+                    <div class="timeline-date">Feb 2023 – Sep 2023</div>
 
                     <div class="timeline-content">
                         <h3>DevOps Graduate Intern</h3>
@@ -303,14 +252,10 @@
                         </ul>
 
                         <div class="experience-tags">
-                            <span>DevOps</span>
-                            <span>Linux</span>
-                            <span>Git</span>
-                            <span>CI/CD</span>
-                            <span>Agile</span>
+                            <span>DevOps</span><span>Linux</span><span>Git</span>
+                            <span>CI/CD</span><span>Agile</span>
                         </div>
                     </div>
-
                 </article>
 
             </div>
@@ -318,113 +263,69 @@
     </section>
 
     <!-- PROJECTS -->
-
     <section id="projects" class="section">
         <div class="container">
 
             <div class="section-heading">
                 <span class="section-label">03 / SELECTED WORK</span>
                 <h2>Projects & explorations<span>.</span></h2>
-                <p>
-                    A selection of software products and technical projects
-                    I've worked on or explored.
-                </p>
+                <p>A selection of software products and technical projects I've worked on or explored.</p>
             </div>
 
             <div class="projects-grid">
 
                 <article class="project-card">
                     <div class="project-number">01</div>
-
-                    <div class="project-icon">
-                        <i class="fa-solid fa-list-check"></i>
-                    </div>
-
+                    <div class="project-icon"><i class="fa-solid fa-list-check"></i></div>
                     <span class="project-category">FULL-STACK DEVELOPMENT</span>
-
                     <h3>Task Manager Application</h3>
-
                     <p>
                         A full-stack task management application built with a
                         React frontend and FastAPI backend. The project explores
                         REST APIs, data persistence, validation and application architecture.
                     </p>
-
                     <div class="project-tags">
-                        <span>React</span>
-                        <span>Vite</span>
-                        <span>Python</span>
-                        <span>FastAPI</span>
-                        <span>SQLAlchemy</span>
-                        <span>SQLite</span>
+                        <span>React</span><span>Vite</span><span>Python</span>
+                        <span>FastAPI</span><span>SQLAlchemy</span><span>SQLite</span>
                     </div>
-
-                    <a href="https://github.com/Amahle10/task_manager_webapp"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="project-link">
+                    <a href="https://github.com/Amahle10/task_manager_webapp" target="_blank" rel="noopener noreferrer" class="project-link">
                         View repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </article>
 
                 <article class="project-card">
                     <div class="project-number">02</div>
-
-                    <div class="project-icon">
-                        <i class="fa-solid fa-layer-group"></i>
-                    </div>
-
+                    <div class="project-icon"><i class="fa-solid fa-layer-group"></i></div>
                     <span class="project-category">DIGITAL PRODUCT STUDIO</span>
-
                     <h3>Dultic</h3>
-
                     <p>
                         A digital product and platform studio concept focused on
                         building software products, platforms and intelligent
                         technology solutions. Includes a custom-designed website
                         and brand identity.
                     </p>
-
                     <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>GitHub Pages</span>
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span>
                     </div>
-
-                    <a href="https://dultic.co.za"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="project-link">
+                    <a href="https://dultic.co.za" target="_blank" rel="noopener noreferrer" class="project-link">
                         Visit website <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </article>
 
                 <article class="project-card">
                     <div class="project-number">03</div>
-
-                    <div class="project-icon">
-                        <i class="fa-solid fa-wallet"></i>
-                    </div>
-
+                    <div class="project-icon"><i class="fa-solid fa-wallet"></i></div>
                     <span class="project-category">FINTECH & APPLICATION DEVELOPMENT</span>
-
                     <h3>ABC Pay</h3>
-
                     <p>
                         A fintech application concept exploring digital payments,
                         user verification, secure account management and simplified
                         payment experiences.
                     </p>
-
                     <div class="project-tags">
-                        <span>Next.js</span>
-                        <span>Express.js</span>
-                        <span>PostgreSQL</span>
-                        <span>Prisma</span>
-                        <span>API Development</span>
+                        <span>Next.js</span><span>Express.js</span><span>PostgreSQL</span>
+                        <span>Prisma</span><span>API Development</span>
                     </div>
-
                     <span class="project-status">Development / Prototype</span>
                 </article>
 
@@ -435,11 +336,7 @@
                     <h3>Explore more of my work.</h3>
                     <p>Visit my GitHub profile to see my repositories and development activity.</p>
                 </div>
-
-                <a href="https://github.com/Amahle10/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="btn btn-primary">
+                <a href="https://github.com/Amahle10/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                     GitHub Profile <i class="fa-brands fa-github"></i>
                 </a>
             </div>
@@ -448,17 +345,13 @@
     </section>
 
     <!-- SKILLS -->
-
     <section id="skills" class="section section-muted">
         <div class="container">
 
             <div class="section-heading">
                 <span class="section-label">04 / TECHNICAL TOOLKIT</span>
                 <h2>Skills & technologies<span>.</span></h2>
-                <p>
-                    Technologies and tools I've worked with through professional
-                    experience, projects and continuous learning.
-                </p>
+                <p>Technologies and tools I've worked with through professional experience, projects and continuous learning.</p>
             </div>
 
             <div class="skills-grid">
@@ -467,16 +360,9 @@
                     <i class="fa-solid fa-code"></i>
                     <h3>Programming & Development</h3>
                     <div class="skill-list">
-                        <span>Python</span>
-                        <span>JavaScript</span>
-                        <span>TypeScript</span>
-                        <span>Java</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>React</span>
-                        <span>Next.js</span>
-                        <span>Node.js</span>
-                        <span>FastAPI</span>
+                        <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Java</span>
+                        <span>HTML5</span><span>CSS3</span><span>React</span><span>Next.js</span>
+                        <span>Node.js</span><span>FastAPI</span>
                     </div>
                 </article>
 
@@ -484,14 +370,8 @@
                     <i class="fa-solid fa-server"></i>
                     <h3>Infrastructure & DevOps</h3>
                     <div class="skill-list">
-                        <span>Linux</span>
-                        <span>Docker</span>
-                        <span>Kubernetes</span>
-                        <span>AWS</span>
-                        <span>Bamboo</span>
-                        <span>Ansible</span>
-                        <span>Git</span>
-                        <span>CI/CD</span>
+                        <span>Linux</span><span>Docker</span><span>Kubernetes</span><span>AWS</span>
+                        <span>Bamboo</span><span>Ansible</span><span>Git</span><span>CI/CD</span>
                         <span>Shell Scripting</span>
                     </div>
                 </article>
@@ -500,13 +380,8 @@
                     <i class="fa-solid fa-database"></i>
                     <h3>Databases & Backend</h3>
                     <div class="skill-list">
-                        <span>PostgreSQL</span>
-                        <span>SQLite</span>
-                        <span>SQL</span>
-                        <span>REST APIs</span>
-                        <span>Express.js</span>
-                        <span>Prisma</span>
-                        <span>SQLAlchemy</span>
+                        <span>PostgreSQL</span><span>SQLite</span><span>SQL</span><span>REST APIs</span>
+                        <span>Express.js</span><span>Prisma</span><span>SQLAlchemy</span>
                     </div>
                 </article>
 
@@ -514,12 +389,8 @@
                     <i class="fa-solid fa-shield-halved"></i>
                     <h3>Systems & Operations</h3>
                     <div class="skill-list">
-                        <span>SSL/TLS</span>
-                        <span>F5 Load Balancing</span>
-                        <span>AppDynamics</span>
-                        <span>Graylog</span>
-                        <span>NetBackup</span>
-                        <span>Application Monitoring</span>
+                        <span>SSL/TLS</span><span>F5 Load Balancing</span><span>AppDynamics</span>
+                        <span>Graylog</span><span>NetBackup</span><span>Application Monitoring</span>
                         <span>System Troubleshooting</span>
                     </div>
                 </article>
@@ -528,11 +399,8 @@
                     <i class="fa-solid fa-brain"></i>
                     <h3>AI & Emerging Technologies</h3>
                     <div class="skill-list">
-                        <span>Generative AI</span>
-                        <span>ChatGPT</span>
-                        <span>Microsoft Copilot</span>
-                        <span>Google Gemini</span>
-                        <span>Machine Learning Fundamentals</span>
+                        <span>Generative AI</span><span>ChatGPT</span><span>Microsoft Copilot</span>
+                        <span>Google Gemini</span><span>Machine Learning Fundamentals</span>
                         <span>AI-assisted Development</span>
                     </div>
                 </article>
@@ -541,13 +409,8 @@
                     <i class="fa-solid fa-people-group"></i>
                     <h3>Engineering Practices</h3>
                     <div class="skill-list">
-                        <span>Agile</span>
-                        <span>Scrum</span>
-                        <span>Jira</span>
-                        <span>Bitbucket</span>
-                        <span>GitHub</span>
-                        <span>Debugging</span>
-                        <span>Technical Documentation</span>
+                        <span>Agile</span><span>Scrum</span><span>Jira</span><span>Bitbucket</span>
+                        <span>GitHub</span><span>Debugging</span><span>Technical Documentation</span>
                         <span>Problem Solving</span>
                     </div>
                 </article>
@@ -557,7 +420,6 @@
     </section>
 
     <!-- EDUCATION -->
-
     <section id="education" class="section">
         <div class="container">
 
@@ -569,68 +431,42 @@
             <div class="education-list">
 
                 <article class="education-item">
-                    <div class="education-icon">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                    </div>
-
+                    <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
                     <div>
                         <span class="education-type">HIGHER EDUCATION</span>
                         <h3>Higher Certificate in Systems Development</h3>
                         <p>WeThinkCode_</p>
-                        <span class="education-description">
-                            Software development, programming fundamentals
-                            and practical systems development.
-                        </span>
+                        <span class="education-description">Software development, programming fundamentals and practical systems development.</span>
                     </div>
                 </article>
 
                 <article class="education-item">
-                    <div class="education-icon">
-                        <i class="fa-solid fa-certificate"></i>
-                    </div>
-
+                    <div class="education-icon"><i class="fa-solid fa-certificate"></i></div>
                     <div>
                         <span class="education-type">PROFESSIONAL CERTIFICATION</span>
                         <h3>SUSE Certified Administrator (SCA)</h3>
                         <p>SUSE</p>
-                        <span class="education-description">
-                            Linux system administration and enterprise
-                            Linux environment fundamentals.
-                        </span>
+                        <span class="education-description">Linux system administration and enterprise Linux environment fundamentals.</span>
                     </div>
                 </article>
 
                 <article class="education-item">
-                    <div class="education-icon">
-                        <i class="fa-solid fa-robot"></i>
-                    </div>
-
+                    <div class="education-icon"><i class="fa-solid fa-robot"></i></div>
                     <div>
                         <span class="education-type">TECHNICAL CERTIFICATE</span>
                         <h3>Generative AI Development Skills</h3>
                         <p>WeThinkCode_</p>
-                        <span class="education-description">
-                            Generative AI concepts and practical use of
-                            AI development tools, including ChatGPT,
-                            Gemini and Microsoft Copilot.
-                        </span>
+                        <span class="education-description">Generative AI concepts and practical use of AI development tools, including ChatGPT, Gemini and Microsoft Copilot.</span>
                     </div>
                 </article>
 
                 <article class="education-item">
-                    <div class="education-icon">
-                        <i class="fa-brands fa-aws"></i>
-                    </div>
-
+                    <div class="education-icon"><i class="fa-brands fa-aws"></i></div>
                     <div>
                         <span class="education-type">CONTINUOUS LEARNING</span>
                         <h3>AWS Cloud & AI Technologies</h3>
                         <p>Deviare AWS Unified Program</p>
-                        <span class="education-description">
-                            Learning and exploring AWS services including
-                            Amazon Bedrock, Polly, Rekognition, Transcribe
-                            and Textract.
-                        </span>
+                        <span class="education-description">Learning and exploring AWS services including Amazon Bedrock, Polly, Rekognition, Transcribe and Textract.</span>
                     </div>
                 </article>
 
@@ -639,16 +475,12 @@
     </section>
 
     <!-- CONTACT -->
-
     <section id="contact" class="contact-section">
         <div class="container contact-container">
 
             <span class="section-label">06 / GET IN TOUCH</span>
 
-            <h2>
-                Have an interesting
-                <span>project or opportunity?</span>
-            </h2>
+            <h2>Have an interesting <span>project or opportunity?</span></h2>
 
             <p>
                 I'm interested in connecting with people working in software
@@ -660,26 +492,9 @@
             </a>
 
             <div class="contact-details">
-
-                <a href="mailto:kamvaoct1@gmail.com">
-                    <i class="fa-solid fa-envelope"></i>
-                    kamvaoct1@gmail.com
-                </a>
-
-                <a href="https://www.linkedin.com/in/amahle-bilikwa-a3a137240/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fa-brands fa-linkedin"></i>
-                    LinkedIn
-                </a>
-
-                <a href="https://github.com/Amahle10/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fa-brands fa-github"></i>
-                    GitHub
-                </a>
-
+                <a href="mailto:kamvaoct1@gmail.com"><i class="fa-solid fa-envelope"></i> kamvaoct1@gmail.com</a>
+                <a href="https://www.linkedin.com/in/amahle-bilikwa-a3a137240/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Amahle10/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
 
         </div>
@@ -690,12 +505,8 @@
 <footer class="footer">
     <div class="container footer-content">
         <a href="#home" class="logo">AB<span>.</span></a>
-
         <p>© <span id="year"></span> Amahle Bilikwa. All rights reserved.</p>
-
-        <a href="#home" class="back-to-top">
-            Back to top <i class="fa-solid fa-arrow-up"></i>
-        </a>
+        <a href="#home" class="back-to-top">Back to top <i class="fa-solid fa-arrow-up"></i></a>
     </div>
 </footer>
 
