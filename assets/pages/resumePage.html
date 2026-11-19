@@ -1,18 +1,260 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description" content="Request the original CV of Amahle Bilikwa.">
+
+    <meta name="author" content="Amahle Bilikwa">
+
+    <meta name="theme-color" content="#ffffff">
+
+    <title>CV Request | Amahle Bilikwa</title>
+
     <link rel="stylesheet" href="../../styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resume-page {
+            flex: 1;
+
+            display: grid;
+            place-items: center;
+
+            padding: 50px 20px;
+
+            background:
+                radial-gradient(
+                    circle at 50% 20%,
+                    #eaf5f0,
+                    transparent 45%
+                ),
+                #ffffff;
+        }
+
+        .resume-card {
+            width: min(100%, 540px);
+
+            padding: 45px;
+
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+
+            text-align: center;
+
+            box-shadow: 0 20px 60px rgba(20, 37, 42, 0.07);
+        }
+
+        .resume-image {
+            width: 130px;
+            height: 130px;
+
+            margin: 0 auto 25px;
+
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+
+            border: 4px solid var(--accent-light);
+            padding: 3px;
+
+            box-shadow: 0 8px 25px rgba(15, 23, 42, 0.1);
+        }
+
+        .resume-label {
+            display: inline-block;
+
+            color: var(--accent);
+
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+
+            margin-bottom: 12px;
+        }
+
+        .resume-card h1 {
+            font-family: var(--font-heading);
+            font-size: 32px;
+            line-height: 1.2;
+            letter-spacing: -1px;
+
+            margin-bottom: 15px;
+        }
+
+        .resume-card > p {
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.8;
+
+            margin-bottom: 25px;
+        }
+
+        .resume-contact {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .resume-contact .btn {
+            width: 100%;
+        }
+
+        .resume-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+
+            margin-top: 25px;
+
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 600;
+
+            transition: color var(--transition);
+        }
+
+        .resume-back:hover {
+            color: var(--accent);
+        }
+
+        @media (max-width: 480px) {
+
+            .resume-page {
+                padding: 30px 16px;
+            }
+
+            .resume-card {
+                padding: 30px 22px;
+            }
+
+            .resume-image {
+                width: 105px;
+                height: 105px;
+            }
+
+            .resume-card h1 {
+                font-size: 27px;
+            }
+
+            .resume-card > p {
+                font-size: 13px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <div id="please-contact">   
-        <p>HI THERE PLEASE CONTACT FOR ORIGINAL RESUME</p>
-        <div id="hi-there-image-container">
-            <img id="hi-there-image" src="../images/people-office-scenes-set/2149750.jpg" alt="Profile Picture" class="profile-pic">
+
+    <header class="header">
+
+        <nav class="navbar container" aria-label="Page navigation">
+
+            <a href="../../index.html" class="logo">
+                AB<span>.</span>
+            </a>
+
+            <a href="../../index.html" class="nav-contact">
+                Back to portfolio
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main class="resume-page">
+
+        <section class="resume-card">
+
+            <img
+                src="../images/people-office-scenes-set/2149750.jpg"
+                alt="Amahle Bilikwa"
+                class="resume-image"
+            >
+
+            <span class="resume-label">
+                CURRICULUM VITAE
+            </span>
+
+            <h1>Interested in my CV?</h1>
+
+            <p>
+                Thank you for your interest in my professional background.
+                Please get in touch to request the original copy of my CV.
+            </p>
+
+            <div class="resume-contact">
+
+                <a
+                    href="mailto:kamvaoct1@gmail.com?subject=CV%20Request%20-%20Amahle%20Bilikwa"
+                    class="btn btn-primary"
+                >
+                    <i class="fa-solid fa-envelope"></i>
+                    Request my CV
+                </a>
+
+                <a
+                    href="../../index.html"
+                    class="btn btn-secondary"
+                >
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Return to portfolio
+                </a>
+
+            </div>
+
+            <a href="../../index.html" class="resume-back">
+                <i class="fa-solid fa-arrow-left"></i>
+                Back to home
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="../../index.html" class="logo">
+                AB<span>.</span>
+            </a>
+
+            <p>
+                © <span id="year"></span> Amahle Bilikwa.
+                All rights reserved.
+            </p>
+
+            <a href="../../index.html" class="back-to-top">
+                Return home
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
         </div>
-        <p>THANK YOU !!!</p>
-    </div>
+
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
 </body>
 </html>
